@@ -522,7 +522,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6a307f0c-dec4-453f-9a66-7cfa4624acbb")
-		(property "Reference" "R17"
+		(property "Reference" "R24"
 			(at 146.05 80.0099 0)
 			(effects
 				(font
@@ -540,7 +540,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 141.732 81.28 90)
 			(effects
 				(font
@@ -576,13 +576,13 @@
 		(instances
 			(project "NIVARA"
 				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a/8c13851c-1f51-45db-a0c3-d4fd67e1b6ee"
-					(reference "R17")
+					(reference "R24")
 					(unit 1)
 				)
 			)
 			(project "NIVARA_ZorionX_BOARD"
 				(path "/8e19332e-3534-4a04-99a8-04957ac8928f/8c13851c-1f51-45db-a0c3-d4fd67e1b6ee"
-					(reference "R17")
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -616,7 +616,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 153.3652 85.09 0)
 			(effects
 				(font
@@ -658,7 +658,7 @@
 			)
 			(project "NIVARA_ZorionX_BOARD"
 				(path "/8e19332e-3534-4a04-99a8-04957ac8928f/8c13851c-1f51-45db-a0c3-d4fd67e1b6ee"
-					(reference "C10")
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -674,7 +674,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8926991f-06cf-4f9f-85d6-9ca4892d599e")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR050"
 			(at 143.51 93.98 0)
 			(effects
 				(font
@@ -724,13 +724,13 @@
 		(instances
 			(project "NIVARA"
 				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a/8c13851c-1f51-45db-a0c3-d4fd67e1b6ee"
-					(reference "#PWR041")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
 			(project "NIVARA_ZorionX_BOARD"
 				(path "/8e19332e-3534-4a04-99a8-04957ac8928f/8c13851c-1f51-45db-a0c3-d4fd67e1b6ee"
-					(reference "#PWR041")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -746,7 +746,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a15be0c1-3e2a-410a-887a-3ed22ce54612")
-		(property "Reference" "R16"
+		(property "Reference" "R23"
 			(at 146.05 68.5799 0)
 			(effects
 				(font
@@ -764,7 +764,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 141.732 69.85 90)
 			(effects
 				(font
@@ -800,13 +800,13 @@
 		(instances
 			(project "NIVARA"
 				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a/8c13851c-1f51-45db-a0c3-d4fd67e1b6ee"
-					(reference "R16")
+					(reference "R23")
 					(unit 1)
 				)
 			)
 			(project "NIVARA_ZorionX_BOARD"
 				(path "/8e19332e-3534-4a04-99a8-04957ac8928f/8c13851c-1f51-45db-a0c3-d4fd67e1b6ee"
-					(reference "R16")
+					(reference "R?")
 					(unit 1)
 				)
 			)

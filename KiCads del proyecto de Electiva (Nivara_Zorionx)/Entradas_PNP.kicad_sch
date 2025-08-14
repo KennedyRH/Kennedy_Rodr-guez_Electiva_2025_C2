@@ -1059,6 +1059,17 @@
 		)
 		(uuid "eb67f670-643d-46aa-9304-f79525b525c5")
 	)
+	(hierarchical_label "NPN_Input1"
+		(shape input)
+		(at 137.16 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "42a0367b-872e-4b31-9249-519cf121950b")
+	)
 	(hierarchical_label "NPN_Input0"
 		(shape input)
 		(at 137.16 62.23 180)
@@ -1068,18 +1079,7 @@
 			)
 			(justify right)
 		)
-		(uuid "066b7e3e-752c-4897-be91-2220cb93ca09")
-	)
-	(hierarchical_label "NPN_Output0"
-		(shape output)
-		(at 176.53 62.23 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4683a660-a6af-4e01-8b37-dc98f25ca3d1")
+		(uuid "9e7e562f-fc38-4523-9e34-ade8db23d9fe")
 	)
 	(hierarchical_label "NPN_Output1"
 		(shape output)
@@ -1090,250 +1090,18 @@
 			)
 			(justify left)
 		)
-		(uuid "5bc12842-763f-4521-9e9d-f4c80a87e709")
+		(uuid "b6c77366-0f3a-42aa-b26d-09d757b6a50f")
 	)
-	(hierarchical_label "NPN_Input1"
-		(shape input)
-		(at 137.16 96.52 180)
+	(hierarchical_label "NPN_Output0"
+		(shape output)
+		(at 176.53 62.23 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "8dd98e4f-a4ac-432c-b015-ee8967bc79e1")
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 147.32 96.52 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "004646e9-4352-40af-b19a-25302ccf572c")
-		(property "Reference" "R19"
-			(at 147.32 90.17 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "910"
-			(at 147.32 92.71 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 147.32 98.298 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 147.32 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 147.32 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC#" "C114670"
-			(at 147.32 96.52 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c7436843-f654-4a24-a8f7-ed9a8968eecb")
-		)
-		(pin "2"
-			(uuid "7b90e547-b9dd-40a6-b4bb-2123c884d78f")
-		)
-		(instances
-			(project "NIVARA"
-				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a/194f65ea-cb11-429e-a2d9-3caff410d6b0"
-					(reference "R19")
-					(unit 1)
-				)
-			)
-			(project "NIVARA_ZorionX_BOARD"
-				(path "/8e19332e-3534-4a04-99a8-04957ac8928f/194f65ea-cb11-429e-a2d9-3caff410d6b0"
-					(reference "R19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 171.45 55.88 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "051ee258-561f-49a1-833c-c6cdc7ea4217")
-		(property "Reference" "R20"
-			(at 173.99 54.6099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "412"
-			(at 173.99 57.1499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 173.228 55.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 171.45 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 171.45 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6347a9f4-fab9-4029-a150-8ca530f54ca6")
-		)
-		(pin "2"
-			(uuid "26ae7f6d-9706-4f08-b913-2050da123edf")
-		)
-		(instances
-			(project "NIVARA"
-				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a/194f65ea-cb11-429e-a2d9-3caff410d6b0"
-					(reference "R20")
-					(unit 1)
-				)
-			)
-			(project "NIVARA_ZorionX_BOARD"
-				(path "/8e19332e-3534-4a04-99a8-04957ac8928f/194f65ea-cb11-429e-a2d9-3caff410d6b0"
-					(reference "R20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDPWR")
-		(at 152.4 69.85 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "276f4b2c-3a85-4bbd-a1b3-296343ea7fe5")
-		(property "Reference" "#PWR022"
-			(at 152.4 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PNPIN_GND"
-			(at 154.94 70.9167 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 152.4 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 152.4 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 152.4 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d8159f47-0818-40bf-b7d7-9b8d399b1bb8")
-		)
-		(instances
-			(project "NIVARA"
-				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a/194f65ea-cb11-429e-a2d9-3caff410d6b0"
-					(reference "#PWR022")
-					(unit 1)
-				)
-			)
-			(project "NIVARA_ZorionX_BOARD"
-				(path "/8e19332e-3534-4a04-99a8-04957ac8928f/194f65ea-cb11-429e-a2d9-3caff410d6b0"
-					(reference "#PWR022")
-					(unit 1)
-				)
-			)
-		)
+		(uuid "ef3ff0d5-fa0b-4169-b43c-d331fa38ecc6")
 	)
 	(symbol
 		(lib_id "Isolator:LTV-357T")
@@ -1344,8 +1112,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "29057740-47d6-4e58-a2f2-1bb918752c2e")
-		(property "Reference" "U10"
+		(uuid "01e09867-dedb-4b53-906d-aa203144183d")
+		(property "Reference" "U12"
 			(at 161.29 90.17 0)
 			(effects
 				(font
@@ -1406,30 +1174,30 @@
 		(instances
 			(project "NIVARA"
 				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a/194f65ea-cb11-429e-a2d9-3caff410d6b0"
-					(reference "U10")
+					(reference "U12")
 					(unit 1)
 				)
 			)
 			(project "NIVARA_ZorionX_BOARD"
 				(path "/8e19332e-3534-4a04-99a8-04957ac8928f/194f65ea-cb11-429e-a2d9-3caff410d6b0"
-					(reference "U10")
+					(reference "U?")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 171.45 49.53 0)
+		(lib_id "power:GND")
+		(at 170.18 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "29694778-dac7-4810-9fe0-f986e8fddbb0")
-		(property "Reference" "#PWR044"
-			(at 171.45 53.34 0)
+		(uuid "01ee2a91-a2d7-4933-b550-613c924fd15a")
+		(property "Reference" "#PWR057"
+			(at 170.18 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1437,8 +1205,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 171.45 44.45 0)
+		(property "Value" "GND"
+			(at 170.18 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1446,7 +1214,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 171.45 49.53 0)
+			(at 170.18 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1455,7 +1223,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 171.45 49.53 0)
+			(at 170.18 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1463,8 +1231,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 171.45 49.53 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 170.18 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1473,18 +1241,163 @@
 			)
 		)
 		(pin "1"
-			(uuid "aa0d7366-eacd-4783-87a2-6ce41ace987c")
+			(uuid "976364ef-54e9-4605-b806-cc0d7cfc3c43")
 		)
 		(instances
 			(project "NIVARA"
 				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a/194f65ea-cb11-429e-a2d9-3caff410d6b0"
-					(reference "#PWR044")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
 			(project "NIVARA_ZorionX_BOARD"
 				(path "/8e19332e-3534-4a04-99a8-04957ac8928f/194f65ea-cb11-429e-a2d9-3caff410d6b0"
-					(reference "#PWR044")
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 170.18 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "130b6bc3-1b4c-4c34-91c3-1a049bea920d")
+		(property "Reference" "#PWR058"
+			(at 170.18 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 170.18 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.18 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 170.18 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fddf7b60-05cd-4781-b24c-14a1d0613572")
+		)
+		(instances
+			(project "NIVARA"
+				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a/194f65ea-cb11-429e-a2d9-3caff410d6b0"
+					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+			(project "NIVARA_ZorionX_BOARD"
+				(path "/8e19332e-3534-4a04-99a8-04957ac8928f/194f65ea-cb11-429e-a2d9-3caff410d6b0"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 152.4 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "527fbcdc-76ba-4495-a988-692f120faada")
+		(property "Reference" "#PWR055"
+			(at 152.4 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PNPIN_GND"
+			(at 154.94 70.9167 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 152.4 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d8159f47-0818-40bf-b7d7-9b8d399b1bb8")
+		)
+		(instances
+			(project "NIVARA"
+				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a/194f65ea-cb11-429e-a2d9-3caff410d6b0"
+					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+			(project "NIVARA_ZorionX_BOARD"
+				(path "/8e19332e-3534-4a04-99a8-04957ac8928f/194f65ea-cb11-429e-a2d9-3caff410d6b0"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -1499,8 +1412,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "475fc676-6b98-4204-9fc1-3a923f0cb5e4")
-		(property "Reference" "U9"
+		(uuid "6749a4a3-560e-4799-9969-c9787a35f289")
+		(property "Reference" "U11"
 			(at 161.29 55.88 0)
 			(effects
 				(font
@@ -1561,85 +1474,13 @@
 		(instances
 			(project "NIVARA"
 				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a/194f65ea-cb11-429e-a2d9-3caff410d6b0"
-					(reference "U9")
+					(reference "U11")
 					(unit 1)
 				)
 			)
 			(project "NIVARA_ZorionX_BOARD"
 				(path "/8e19332e-3534-4a04-99a8-04957ac8928f/194f65ea-cb11-429e-a2d9-3caff410d6b0"
-					(reference "U9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 170.18 69.85 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "594f678e-f8fb-48a8-ab0d-c5a44a0ed7d2")
-		(property "Reference" "#PWR042"
-			(at 170.18 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 170.18 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 170.18 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 170.18 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 170.18 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "976364ef-54e9-4605-b806-cc0d7cfc3c43")
-		)
-		(instances
-			(project "NIVARA"
-				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a/194f65ea-cb11-429e-a2d9-3caff410d6b0"
-					(reference "#PWR042")
-					(unit 1)
-				)
-			)
-			(project "NIVARA_ZorionX_BOARD"
-				(path "/8e19332e-3534-4a04-99a8-04957ac8928f/194f65ea-cb11-429e-a2d9-3caff410d6b0"
-					(reference "#PWR042")
+					(reference "U?")
 					(unit 1)
 				)
 			)
@@ -1647,16 +1488,16 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 171.45 90.17 180)
+		(at 171.45 55.88 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "7efd78a2-171e-4872-a864-1f6d5c7938c4")
-		(property "Reference" "R21"
-			(at 173.99 88.8999 0)
+		(uuid "70287df3-6cb5-4a1c-910d-fc9e9c0f3771")
+		(property "Reference" "R28"
+			(at 173.99 54.6099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1665,7 +1506,7 @@
 			)
 		)
 		(property "Value" "412"
-			(at 173.99 91.4399 0)
+			(at 173.99 57.1499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1673,8 +1514,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 173.228 90.17 90)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 173.228 55.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1683,7 +1524,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 171.45 90.17 0)
+			(at 171.45 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1692,7 +1533,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 171.45 90.17 0)
+			(at 171.45 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1701,237 +1542,21 @@
 			)
 		)
 		(pin "1"
-			(uuid "01c83767-b741-4b1a-a286-45659d65a127")
+			(uuid "6347a9f4-fab9-4029-a150-8ca530f54ca6")
 		)
 		(pin "2"
-			(uuid "f1c2f27e-20d6-4c18-8d6a-bb68de4a1ec0")
+			(uuid "26ae7f6d-9706-4f08-b913-2050da123edf")
 		)
 		(instances
 			(project "NIVARA"
 				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a/194f65ea-cb11-429e-a2d9-3caff410d6b0"
-					(reference "R21")
+					(reference "R28")
 					(unit 1)
 				)
 			)
 			(project "NIVARA_ZorionX_BOARD"
 				(path "/8e19332e-3534-4a04-99a8-04957ac8928f/194f65ea-cb11-429e-a2d9-3caff410d6b0"
-					(reference "R21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDPWR")
-		(at 152.4 104.14 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "961513e2-2725-4679-8c68-b4f9c96adac0")
-		(property "Reference" "#PWR025"
-			(at 152.4 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PNPIN_GND"
-			(at 152.273 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 152.4 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 152.4 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 152.4 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "517e086a-2326-408c-bf27-c16556d205d6")
-		)
-		(instances
-			(project "NIVARA"
-				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a/194f65ea-cb11-429e-a2d9-3caff410d6b0"
-					(reference "#PWR025")
-					(unit 1)
-				)
-			)
-			(project "NIVARA_ZorionX_BOARD"
-				(path "/8e19332e-3534-4a04-99a8-04957ac8928f/194f65ea-cb11-429e-a2d9-3caff410d6b0"
-					(reference "#PWR025")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 171.45 83.82 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a507e94e-52dd-4fa8-97e4-21eb3eb4b32e")
-		(property "Reference" "#PWR045"
-			(at 171.45 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 171.45 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 171.45 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 171.45 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 171.45 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a825d63a-ce82-411c-9b7c-0fdd9b475178")
-		)
-		(instances
-			(project "NIVARA"
-				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a/194f65ea-cb11-429e-a2d9-3caff410d6b0"
-					(reference "#PWR045")
-					(unit 1)
-				)
-			)
-			(project "NIVARA_ZorionX_BOARD"
-				(path "/8e19332e-3534-4a04-99a8-04957ac8928f/194f65ea-cb11-429e-a2d9-3caff410d6b0"
-					(reference "#PWR045")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 170.18 104.14 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ab25fc56-66ac-42e6-8ba0-5ded43ce904f")
-		(property "Reference" "#PWR043"
-			(at 170.18 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 170.18 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 170.18 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 170.18 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 170.18 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fddf7b60-05cd-4781-b24c-14a1d0613572")
-		)
-		(instances
-			(project "NIVARA"
-				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a/194f65ea-cb11-429e-a2d9-3caff410d6b0"
-					(reference "#PWR043")
-					(unit 1)
-				)
-			)
-			(project "NIVARA_ZorionX_BOARD"
-				(path "/8e19332e-3534-4a04-99a8-04957ac8928f/194f65ea-cb11-429e-a2d9-3caff410d6b0"
-					(reference "#PWR043")
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -1946,8 +1571,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b9eb72a7-4b5f-4f7a-aaa0-f79f65607ff8")
-		(property "Reference" "R18"
+		(uuid "7a77d4cf-c157-496f-8562-3312b0193023")
+		(property "Reference" "R26"
 			(at 147.32 55.88 90)
 			(effects
 				(font
@@ -2008,13 +1633,388 @@
 		(instances
 			(project "NIVARA"
 				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a/194f65ea-cb11-429e-a2d9-3caff410d6b0"
-					(reference "R18")
+					(reference "R26")
 					(unit 1)
 				)
 			)
 			(project "NIVARA_ZorionX_BOARD"
 				(path "/8e19332e-3534-4a04-99a8-04957ac8928f/194f65ea-cb11-429e-a2d9-3caff410d6b0"
-					(reference "R18")
+					(reference "R?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 171.45 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8873dba7-b1c7-4521-92ff-0e3e601c0f1d")
+		(property "Reference" "#PWR060"
+			(at 171.45 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 171.45 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 171.45 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.45 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 171.45 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a825d63a-ce82-411c-9b7c-0fdd9b475178")
+		)
+		(instances
+			(project "NIVARA"
+				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a/194f65ea-cb11-429e-a2d9-3caff410d6b0"
+					(reference "#PWR060")
+					(unit 1)
+				)
+			)
+			(project "NIVARA_ZorionX_BOARD"
+				(path "/8e19332e-3534-4a04-99a8-04957ac8928f/194f65ea-cb11-429e-a2d9-3caff410d6b0"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 171.45 90.17 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b46183b0-010e-4fc2-9486-9e430a178658")
+		(property "Reference" "R29"
+			(at 173.99 88.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "412"
+			(at 173.99 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 173.228 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 171.45 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 171.45 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "01c83767-b741-4b1a-a286-45659d65a127")
+		)
+		(pin "2"
+			(uuid "f1c2f27e-20d6-4c18-8d6a-bb68de4a1ec0")
+		)
+		(instances
+			(project "NIVARA"
+				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a/194f65ea-cb11-429e-a2d9-3caff410d6b0"
+					(reference "R29")
+					(unit 1)
+				)
+			)
+			(project "NIVARA_ZorionX_BOARD"
+				(path "/8e19332e-3534-4a04-99a8-04957ac8928f/194f65ea-cb11-429e-a2d9-3caff410d6b0"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 152.4 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d2792554-2c78-4414-9fad-0a7efb98100d")
+		(property "Reference" "#PWR056"
+			(at 152.4 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PNPIN_GND"
+			(at 152.273 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 152.4 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "517e086a-2326-408c-bf27-c16556d205d6")
+		)
+		(instances
+			(project "NIVARA"
+				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a/194f65ea-cb11-429e-a2d9-3caff410d6b0"
+					(reference "#PWR056")
+					(unit 1)
+				)
+			)
+			(project "NIVARA_ZorionX_BOARD"
+				(path "/8e19332e-3534-4a04-99a8-04957ac8928f/194f65ea-cb11-429e-a2d9-3caff410d6b0"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 171.45 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e5208652-8afa-40dd-9a91-ecfbdf4a42ed")
+		(property "Reference" "#PWR059"
+			(at 171.45 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 171.45 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 171.45 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.45 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 171.45 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aa0d7366-eacd-4783-87a2-6ce41ace987c")
+		)
+		(instances
+			(project "NIVARA"
+				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a/194f65ea-cb11-429e-a2d9-3caff410d6b0"
+					(reference "#PWR059")
+					(unit 1)
+				)
+			)
+			(project "NIVARA_ZorionX_BOARD"
+				(path "/8e19332e-3534-4a04-99a8-04957ac8928f/194f65ea-cb11-429e-a2d9-3caff410d6b0"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 147.32 96.52 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e5952faf-7d8f-493c-a91d-3a44c3ab4922")
+		(property "Reference" "R27"
+			(at 147.32 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "910"
+			(at 147.32 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 147.32 98.298 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 147.32 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 147.32 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C114670"
+			(at 147.32 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c7436843-f654-4a24-a8f7-ed9a8968eecb")
+		)
+		(pin "2"
+			(uuid "7b90e547-b9dd-40a6-b4bb-2123c884d78f")
+		)
+		(instances
+			(project "NIVARA"
+				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a/194f65ea-cb11-429e-a2d9-3caff410d6b0"
+					(reference "R27")
+					(unit 1)
+				)
+			)
+			(project "NIVARA_ZorionX_BOARD"
+				(path "/8e19332e-3534-4a04-99a8-04957ac8928f/194f65ea-cb11-429e-a2d9-3caff410d6b0"
+					(reference "R?")
 					(unit 1)
 				)
 			)

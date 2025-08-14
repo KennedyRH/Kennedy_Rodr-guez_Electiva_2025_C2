@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.0,
-          "height": 1.4,
-          "width": 1.4
+          "drill": 0.0,
+          "height": 1.45,
+          "width": 1.0
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -485,7 +485,7 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "",
+      "netlist": "NIVARA_ZorionX.net",
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
@@ -595,7 +595,7 @@
     "meta": {
       "version": 1
     },
-    "net_format_name": "",
+    "net_format_name": "KiCad",
     "page_layout_descr_file": "",
     "plot_directory": "",
     "space_save_all_events": true,
@@ -619,55 +619,55 @@
     ],
     [
       "8ab7d9d8-a14c-43b1-bf79-ac7dfdaef76f",
-      "PSU"
+      "Modulo de alimentación de diferencia de potencial"
     ],
     [
       "43a112db-786f-42fb-8db3-67286b51ed8f",
-      "RS485_INTERFACE"
+      "Modulo_RS485"
     ],
     [
       "86b88fb6-54fe-4cca-9b3c-121214f029ac",
-      "RELAY_INTERFACE"
+      "Modulo_Relay"
     ],
     [
       "d622ea12-fe2d-4cf1-abd0-941db96d5f54",
-      "NPN_IN_Mod"
+      "Entradas_NPN"
     ],
     [
       "a4009674-06bb-4fe0-bcda-ed9945d86716",
-      "mA_INTERFACE_OUT"
+      "Salida_mA"
     ],
     [
       "89d29688-da71-49bb-a25b-d6f160f4d0d4",
-      "mA_INTERFACE_IN"
+      "Entrada_mA"
     ],
     [
       "70c9f439-c648-496e-a774-7d3c213f4c72",
-      "NPN_OUT_INTERFACE"
+      "Salidas_NPN"
     ],
     [
       "2ac137b5-1347-46a5-b780-a606790c1a93",
-      "DRY_INPUT_INTERFACE"
+      "Entrada_dry"
     ],
     [
       "addf1e1e-f652-4279-8cba-01ccd2e4a395",
-      "32V_AIN_INTERFACE"
+      "Entrada_32v"
     ],
     [
       "8c13851c-1f51-45db-a0c3-d4fd67e1b6ee",
-      "10V_AIN_INTERFACE"
+      "Entrada_10v"
     ],
     [
       "11a8222e-f360-40de-9c02-857da7131a56",
-      "VOLTAGE_AOUT_INTERFACE"
+      "Salida_Voltaje"
     ],
     [
       "194f65ea-cb11-429e-a2d9-3caff410d6b0",
-      "PNP_IN_Mod"
+      "Entradas_PNP"
     ],
     [
       "75a26718-4d1a-4f94-8a92-dbb42fb796de",
-      "PNP_OUT_INTERFACE"
+      "Salidas_PNP"
     ]
   ],
   "text_variables": {}

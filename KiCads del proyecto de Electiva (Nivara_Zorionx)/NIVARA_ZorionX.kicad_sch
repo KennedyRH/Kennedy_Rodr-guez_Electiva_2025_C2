@@ -2051,7 +2051,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1e53e5bd-56a3-4d24-97fb-11a08909ca79")
-		(property "Reference" "#PWR7"
+		(property "Reference" "#PWR06"
 			(at 154.94 120.65 0)
 			(effects
 				(font
@@ -2101,7 +2101,7 @@
 		(instances
 			(project ""
 				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a"
-					(reference "#PWR7")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -2117,7 +2117,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2456bf3a-0e0b-4bcd-b197-696d38d5f7d6")
-		(property "Reference" "#PWR5"
+		(property "Reference" "#PWR09"
 			(at 180.34 67.31 0)
 			(effects
 				(font
@@ -2168,7 +2168,7 @@
 		(instances
 			(project "NIVARA"
 				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a"
-					(reference "#PWR5")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -2184,7 +2184,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "49ae1290-d441-4781-812e-02c9d55b12d3")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR04"
 			(at 118.11 87.63 0)
 			(effects
 				(font
@@ -2235,7 +2235,7 @@
 		(instances
 			(project "NIVARA"
 				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a"
-					(reference "#PWR067")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -2250,7 +2250,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4e39cab3-8e45-42b5-b750-0fd659452d2a")
-		(property "Reference" "J12"
+		(property "Reference" "J8"
 			(at 194.31 57.404 0)
 			(effects
 				(font
@@ -2267,7 +2267,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-4_1x04_P5.00mm_Horizontal"
 			(at 194.31 62.23 0)
 			(effects
 				(font
@@ -2309,7 +2309,7 @@
 		(instances
 			(project "NIVARA"
 				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a"
-					(reference "J12")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -2324,7 +2324,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4f1df735-16c2-424b-bdb9-4260a852edf2")
-		(property "Reference" "J9"
+		(property "Reference" "J11"
 			(at 193.294 99.314 0)
 			(effects
 				(font
@@ -2343,7 +2343,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3_1x03_P5.00mm_Horizontal"
 			(at 194.31 104.14 0)
 			(effects
 				(font
@@ -2382,7 +2382,7 @@
 		(instances
 			(project "NIVARA"
 				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a"
-					(reference "J9")
+					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -2397,7 +2397,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "52b6dd90-d391-43df-a165-f2203c7f7801")
-		(property "Reference" "J6"
+		(property "Reference" "J9"
 			(at 193.294 71.374 0)
 			(effects
 				(font
@@ -2416,7 +2416,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-6_1x06_P5.00mm_Horizontal"
 			(at 194.31 78.74 0)
 			(effects
 				(font
@@ -2464,7 +2464,7 @@
 		(instances
 			(project ""
 				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a"
-					(reference "J6")
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -2497,7 +2497,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal"
 			(at 104.14 92.71 0)
 			(effects
 				(font
@@ -2549,7 +2549,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7a7bd987-3f00-4f14-b0ef-9d9c2540debb")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR01"
 			(at 116.84 54.61 0)
 			(effects
 				(font
@@ -2600,7 +2600,7 @@
 		(instances
 			(project ""
 				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a"
-					(reference "#PWR065")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -2635,7 +2635,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3_1x03_P5.00mm_Horizontal"
 			(at 104.14 52.07 0)
 			(effects
 				(font
@@ -2690,7 +2690,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "972653f8-a29d-42fd-8daa-0161d6fa6dd7")
-		(property "Reference" "#PWR3"
+		(property "Reference" "#PWR05"
 			(at 118.11 95.25 0)
 			(effects
 				(font
@@ -2741,7 +2741,7 @@
 		(instances
 			(project "NIVARA"
 				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a"
-					(reference "#PWR3")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -2774,7 +2774,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-4_1x04_P5.00mm_Horizontal"
 			(at 104.14 72.39 0)
 			(effects
 				(font
@@ -2832,7 +2832,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a5c1bfbc-0854-4d5f-9f25-f31b0c82af3d")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR02"
 			(at 116.84 64.77 0)
 			(effects
 				(font
@@ -2883,7 +2883,7 @@
 		(instances
 			(project ""
 				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a"
-					(reference "#PWR066")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -2899,7 +2899,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b05d27f0-5f63-418f-b2ad-1135d66d6671")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR010"
 			(at 190.5 91.44 0)
 			(effects
 				(font
@@ -2950,7 +2950,7 @@
 		(instances
 			(project "NIVARA"
 				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a"
-					(reference "#PWR068")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -2966,7 +2966,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "be999b06-0237-4b1a-827b-171738b6de21")
-		(property "Reference" "#PWR6"
+		(property "Reference" "#PWR07"
 			(at 154.94 128.27 0)
 			(effects
 				(font
@@ -3016,7 +3016,7 @@
 		(instances
 			(project ""
 				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a"
-					(reference "#PWR6")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -3032,7 +3032,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c79a4f33-aa84-4c3c-95e3-ef040e40be5c")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR011"
 			(at 180.34 101.6 0)
 			(effects
 				(font
@@ -3083,7 +3083,7 @@
 		(instances
 			(project "NIVARA"
 				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a"
-					(reference "#PWR069")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -3118,7 +3118,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3_1x03_P5.00mm_Horizontal"
 			(at 104.14 62.23 0)
 			(effects
 				(font
@@ -3173,7 +3173,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cdda0e28-d54a-450e-9667-81f9256199ae")
-		(property "Reference" "#PWR4"
+		(property "Reference" "#PWR08"
 			(at 180.34 54.61 0)
 			(effects
 				(font
@@ -3224,7 +3224,7 @@
 		(instances
 			(project "NIVARA"
 				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a"
-					(reference "#PWR4")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -3240,7 +3240,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ecc413b2-781e-420f-b418-d27dba05abb0")
-		(property "Reference" "#PWR2"
+		(property "Reference" "#PWR03"
 			(at 118.11 77.47 0)
 			(effects
 				(font
@@ -3291,7 +3291,7 @@
 		(instances
 			(project ""
 				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a"
-					(reference "#PWR2")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -3307,7 +3307,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ecf2121b-977f-45dc-8a78-315922421d93")
-		(property "Reference" "J11"
+		(property "Reference" "J6"
 			(at 148.59 115.57 0)
 			(effects
 				(font
@@ -3324,7 +3324,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal"
 			(at 148.59 118.11 0)
 			(effects
 				(font
@@ -3360,7 +3360,7 @@
 		(instances
 			(project "NIVARA"
 				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a"
-					(reference "J11")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -3394,7 +3394,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3_1x03_P5.00mm_Horizontal"
 			(at 194.31 52.07 0)
 			(effects
 				(font
@@ -3448,7 +3448,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f0cb2b5d-dbe2-4a6d-9e99-05456ee9efa6")
-		(property "Reference" "J8"
+		(property "Reference" "J10"
 			(at 193.294 89.154 0)
 			(effects
 				(font
@@ -3467,7 +3467,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3_1x03_P5.00mm_Horizontal"
 			(at 194.31 93.98 0)
 			(effects
 				(font
@@ -3506,7 +3506,7 @@
 		(instances
 			(project "NIVARA"
 				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a"
-					(reference "J8")
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -3608,7 +3608,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3_1x03_P5.00mm_Horizontal"
 			(at 104.14 85.09 0)
 			(effects
 				(font

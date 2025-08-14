@@ -1113,7 +1113,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "004646e9-4352-40af-b19a-25302ccf572c")
-		(property "Reference" "R19"
+		(property "Reference" "R10"
 			(at 147.32 90.17 90)
 			(effects
 				(font
@@ -1174,17 +1174,17 @@
 		(instances
 			(project "NIVARA"
 				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a/194f65ea-cb11-429e-a2d9-3caff410d6b0"
-					(reference "R19")
+					(reference "R?")
+					(unit 1)
+				)
+				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a/d622ea12-fe2d-4cf1-abd0-941db96d5f54"
+					(reference "R10")
 					(unit 1)
 				)
 			)
 			(project "NIVARA_ZorionX_BOARD"
-				(path "/8e19332e-3534-4a04-99a8-04957ac8928f/194f65ea-cb11-429e-a2d9-3caff410d6b0"
-					(reference "R?")
-					(unit 1)
-				)
 				(path "/8e19332e-3534-4a04-99a8-04957ac8928f/d622ea12-fe2d-4cf1-abd0-941db96d5f54"
-					(reference "R19")
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -1200,7 +1200,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "051ee258-561f-49a1-833c-c6cdc7ea4217")
-		(property "Reference" "R20"
+		(property "Reference" "R11"
 			(at 173.99 54.6099 0)
 			(effects
 				(font
@@ -1218,7 +1218,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 173.228 55.88 90)
 			(effects
 				(font
@@ -1254,17 +1254,17 @@
 		(instances
 			(project "NIVARA"
 				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a/194f65ea-cb11-429e-a2d9-3caff410d6b0"
-					(reference "R20")
+					(reference "R?")
+					(unit 1)
+				)
+				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a/d622ea12-fe2d-4cf1-abd0-941db96d5f54"
+					(reference "R11")
 					(unit 1)
 				)
 			)
 			(project "NIVARA_ZorionX_BOARD"
-				(path "/8e19332e-3534-4a04-99a8-04957ac8928f/194f65ea-cb11-429e-a2d9-3caff410d6b0"
-					(reference "R?")
-					(unit 1)
-				)
 				(path "/8e19332e-3534-4a04-99a8-04957ac8928f/d622ea12-fe2d-4cf1-abd0-941db96d5f54"
-					(reference "R20")
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -1280,7 +1280,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "276f4b2c-3a85-4bbd-a1b3-296343ea7fe5")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR031"
 			(at 152.4 74.93 0)
 			(effects
 				(font
@@ -1331,17 +1331,17 @@
 		(instances
 			(project "NIVARA"
 				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a/194f65ea-cb11-429e-a2d9-3caff410d6b0"
-					(reference "#PWR022")
+					(reference "#PWR?")
+					(unit 1)
+				)
+				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a/d622ea12-fe2d-4cf1-abd0-941db96d5f54"
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
 			(project "NIVARA_ZorionX_BOARD"
-				(path "/8e19332e-3534-4a04-99a8-04957ac8928f/194f65ea-cb11-429e-a2d9-3caff410d6b0"
-					(reference "#PWR?")
-					(unit 1)
-				)
 				(path "/8e19332e-3534-4a04-99a8-04957ac8928f/d622ea12-fe2d-4cf1-abd0-941db96d5f54"
-					(reference "#PWR022")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -1357,7 +1357,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "29057740-47d6-4e58-a2f2-1bb918752c2e")
-		(property "Reference" "U10"
+		(property "Reference" "U5"
 			(at 161.29 90.17 0)
 			(effects
 				(font
@@ -1418,17 +1418,17 @@
 		(instances
 			(project "NIVARA"
 				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a/194f65ea-cb11-429e-a2d9-3caff410d6b0"
-					(reference "U10")
+					(reference "U?")
+					(unit 1)
+				)
+				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a/d622ea12-fe2d-4cf1-abd0-941db96d5f54"
+					(reference "U5")
 					(unit 1)
 				)
 			)
 			(project "NIVARA_ZorionX_BOARD"
-				(path "/8e19332e-3534-4a04-99a8-04957ac8928f/194f65ea-cb11-429e-a2d9-3caff410d6b0"
-					(reference "U?")
-					(unit 1)
-				)
 				(path "/8e19332e-3534-4a04-99a8-04957ac8928f/d622ea12-fe2d-4cf1-abd0-941db96d5f54"
-					(reference "U10")
+					(reference "U?")
 					(unit 1)
 				)
 			)
@@ -1444,7 +1444,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "29694778-dac7-4810-9fe0-f986e8fddbb0")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR035"
 			(at 171.45 53.34 0)
 			(effects
 				(font
@@ -1494,17 +1494,17 @@
 		(instances
 			(project "NIVARA"
 				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a/194f65ea-cb11-429e-a2d9-3caff410d6b0"
-					(reference "#PWR044")
+					(reference "#PWR?")
+					(unit 1)
+				)
+				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a/d622ea12-fe2d-4cf1-abd0-941db96d5f54"
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
 			(project "NIVARA_ZorionX_BOARD"
-				(path "/8e19332e-3534-4a04-99a8-04957ac8928f/194f65ea-cb11-429e-a2d9-3caff410d6b0"
-					(reference "#PWR?")
-					(unit 1)
-				)
 				(path "/8e19332e-3534-4a04-99a8-04957ac8928f/d622ea12-fe2d-4cf1-abd0-941db96d5f54"
-					(reference "#PWR044")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -1520,7 +1520,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "475fc676-6b98-4204-9fc1-3a923f0cb5e4")
-		(property "Reference" "U9"
+		(property "Reference" "U4"
 			(at 161.29 55.88 0)
 			(effects
 				(font
@@ -1581,17 +1581,17 @@
 		(instances
 			(project "NIVARA"
 				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a/194f65ea-cb11-429e-a2d9-3caff410d6b0"
-					(reference "U9")
+					(reference "U?")
+					(unit 1)
+				)
+				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a/d622ea12-fe2d-4cf1-abd0-941db96d5f54"
+					(reference "U4")
 					(unit 1)
 				)
 			)
 			(project "NIVARA_ZorionX_BOARD"
-				(path "/8e19332e-3534-4a04-99a8-04957ac8928f/194f65ea-cb11-429e-a2d9-3caff410d6b0"
-					(reference "U?")
-					(unit 1)
-				)
 				(path "/8e19332e-3534-4a04-99a8-04957ac8928f/d622ea12-fe2d-4cf1-abd0-941db96d5f54"
-					(reference "U9")
+					(reference "U?")
 					(unit 1)
 				)
 			)
@@ -1607,7 +1607,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "594f678e-f8fb-48a8-ab0d-c5a44a0ed7d2")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR033"
 			(at 170.18 76.2 0)
 			(effects
 				(font
@@ -1657,17 +1657,17 @@
 		(instances
 			(project "NIVARA"
 				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a/194f65ea-cb11-429e-a2d9-3caff410d6b0"
-					(reference "#PWR042")
+					(reference "#PWR?")
+					(unit 1)
+				)
+				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a/d622ea12-fe2d-4cf1-abd0-941db96d5f54"
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
 			(project "NIVARA_ZorionX_BOARD"
-				(path "/8e19332e-3534-4a04-99a8-04957ac8928f/194f65ea-cb11-429e-a2d9-3caff410d6b0"
-					(reference "#PWR?")
-					(unit 1)
-				)
 				(path "/8e19332e-3534-4a04-99a8-04957ac8928f/d622ea12-fe2d-4cf1-abd0-941db96d5f54"
-					(reference "#PWR042")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -1683,7 +1683,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7efd78a2-171e-4872-a864-1f6d5c7938c4")
-		(property "Reference" "R21"
+		(property "Reference" "R12"
 			(at 173.99 88.8999 0)
 			(effects
 				(font
@@ -1701,7 +1701,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 173.228 90.17 90)
 			(effects
 				(font
@@ -1737,17 +1737,17 @@
 		(instances
 			(project "NIVARA"
 				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a/194f65ea-cb11-429e-a2d9-3caff410d6b0"
-					(reference "R21")
+					(reference "R?")
+					(unit 1)
+				)
+				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a/d622ea12-fe2d-4cf1-abd0-941db96d5f54"
+					(reference "R12")
 					(unit 1)
 				)
 			)
 			(project "NIVARA_ZorionX_BOARD"
-				(path "/8e19332e-3534-4a04-99a8-04957ac8928f/194f65ea-cb11-429e-a2d9-3caff410d6b0"
-					(reference "R?")
-					(unit 1)
-				)
 				(path "/8e19332e-3534-4a04-99a8-04957ac8928f/d622ea12-fe2d-4cf1-abd0-941db96d5f54"
-					(reference "R21")
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -1763,7 +1763,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "961513e2-2725-4679-8c68-b4f9c96adac0")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR032"
 			(at 152.4 109.22 0)
 			(effects
 				(font
@@ -1813,17 +1813,17 @@
 		(instances
 			(project "NIVARA"
 				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a/194f65ea-cb11-429e-a2d9-3caff410d6b0"
-					(reference "#PWR025")
+					(reference "#PWR?")
+					(unit 1)
+				)
+				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a/d622ea12-fe2d-4cf1-abd0-941db96d5f54"
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
 			(project "NIVARA_ZorionX_BOARD"
-				(path "/8e19332e-3534-4a04-99a8-04957ac8928f/194f65ea-cb11-429e-a2d9-3caff410d6b0"
-					(reference "#PWR?")
-					(unit 1)
-				)
 				(path "/8e19332e-3534-4a04-99a8-04957ac8928f/d622ea12-fe2d-4cf1-abd0-941db96d5f54"
-					(reference "#PWR025")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -1839,7 +1839,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a507e94e-52dd-4fa8-97e4-21eb3eb4b32e")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR036"
 			(at 171.45 87.63 0)
 			(effects
 				(font
@@ -1889,17 +1889,17 @@
 		(instances
 			(project "NIVARA"
 				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a/194f65ea-cb11-429e-a2d9-3caff410d6b0"
-					(reference "#PWR045")
+					(reference "#PWR?")
+					(unit 1)
+				)
+				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a/d622ea12-fe2d-4cf1-abd0-941db96d5f54"
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
 			(project "NIVARA_ZorionX_BOARD"
-				(path "/8e19332e-3534-4a04-99a8-04957ac8928f/194f65ea-cb11-429e-a2d9-3caff410d6b0"
-					(reference "#PWR?")
-					(unit 1)
-				)
 				(path "/8e19332e-3534-4a04-99a8-04957ac8928f/d622ea12-fe2d-4cf1-abd0-941db96d5f54"
-					(reference "#PWR045")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -1915,7 +1915,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ab25fc56-66ac-42e6-8ba0-5ded43ce904f")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR034"
 			(at 170.18 110.49 0)
 			(effects
 				(font
@@ -1965,17 +1965,17 @@
 		(instances
 			(project "NIVARA"
 				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a/194f65ea-cb11-429e-a2d9-3caff410d6b0"
-					(reference "#PWR043")
+					(reference "#PWR?")
+					(unit 1)
+				)
+				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a/d622ea12-fe2d-4cf1-abd0-941db96d5f54"
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
 			(project "NIVARA_ZorionX_BOARD"
-				(path "/8e19332e-3534-4a04-99a8-04957ac8928f/194f65ea-cb11-429e-a2d9-3caff410d6b0"
-					(reference "#PWR?")
-					(unit 1)
-				)
 				(path "/8e19332e-3534-4a04-99a8-04957ac8928f/d622ea12-fe2d-4cf1-abd0-941db96d5f54"
-					(reference "#PWR043")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -1991,7 +1991,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b9eb72a7-4b5f-4f7a-aaa0-f79f65607ff8")
-		(property "Reference" "R18"
+		(property "Reference" "R9"
 			(at 147.32 55.88 90)
 			(effects
 				(font
@@ -2052,17 +2052,17 @@
 		(instances
 			(project "NIVARA"
 				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a/194f65ea-cb11-429e-a2d9-3caff410d6b0"
-					(reference "R18")
+					(reference "R?")
+					(unit 1)
+				)
+				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a/d622ea12-fe2d-4cf1-abd0-941db96d5f54"
+					(reference "R9")
 					(unit 1)
 				)
 			)
 			(project "NIVARA_ZorionX_BOARD"
-				(path "/8e19332e-3534-4a04-99a8-04957ac8928f/194f65ea-cb11-429e-a2d9-3caff410d6b0"
-					(reference "R?")
-					(unit 1)
-				)
 				(path "/8e19332e-3534-4a04-99a8-04957ac8928f/d622ea12-fe2d-4cf1-abd0-941db96d5f54"
-					(reference "R18")
+					(reference "R?")
 					(unit 1)
 				)
 			)

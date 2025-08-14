@@ -502,7 +502,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "06de1664-3be1-4d57-8c4f-078139e7dcba")
-		(property "Reference" "R8"
+		(property "Reference" "R13"
 			(at 143.51 82.5499 0)
 			(effects
 				(font
@@ -520,7 +520,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 142.748 83.82 90)
 			(effects
 				(font
@@ -565,17 +565,21 @@
 		(instances
 			(project ""
 				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a/89d29688-da71-49bb-a25b-d6f160f4d0d4"
-					(reference "R8")
+					(reference "R14")
+					(unit 1)
+				)
+				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a/a4009674-06bb-4fe0-bcda-ed9945d86716"
+					(reference "R13")
 					(unit 1)
 				)
 			)
 			(project "NIVARA_ZorionX_BOARD"
 				(path "/8e19332e-3534-4a04-99a8-04957ac8928f/89d29688-da71-49bb-a25b-d6f160f4d0d4"
-					(reference "R8")
+					(reference "R?")
 					(unit 1)
 				)
 				(path "/8e19332e-3534-4a04-99a8-04957ac8928f/a4009674-06bb-4fe0-bcda-ed9945d86716"
-					(reference "R8")
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -591,7 +595,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a6b590fd-b1e3-4547-b291-656ff020d666")
-		(property "Reference" "C11"
+		(property "Reference" "C7"
 			(at 152.4 82.5499 0)
 			(effects
 				(font
@@ -609,7 +613,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 149.5552 87.63 0)
 			(effects
 				(font
@@ -645,17 +649,21 @@
 		(instances
 			(project "NIVARA"
 				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a/89d29688-da71-49bb-a25b-d6f160f4d0d4"
-					(reference "C11")
+					(reference "C8")
+					(unit 1)
+				)
+				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a/a4009674-06bb-4fe0-bcda-ed9945d86716"
+					(reference "C7")
 					(unit 1)
 				)
 			)
 			(project "NIVARA_ZorionX_BOARD"
 				(path "/8e19332e-3534-4a04-99a8-04957ac8928f/89d29688-da71-49bb-a25b-d6f160f4d0d4"
-					(reference "C11")
+					(reference "C?")
 					(unit 1)
 				)
 				(path "/8e19332e-3534-4a04-99a8-04957ac8928f/a4009674-06bb-4fe0-bcda-ed9945d86716"
-					(reference "C11")
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -671,7 +679,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fb689e34-0b60-4d3f-8556-1e14706045f9")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR037"
 			(at 140.97 96.52 0)
 			(effects
 				(font
@@ -721,17 +729,21 @@
 		(instances
 			(project ""
 				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a/89d29688-da71-49bb-a25b-d6f160f4d0d4"
-					(reference "#PWR029")
+					(reference "#PWR038")
+					(unit 1)
+				)
+				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a/a4009674-06bb-4fe0-bcda-ed9945d86716"
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
 			(project "NIVARA_ZorionX_BOARD"
 				(path "/8e19332e-3534-4a04-99a8-04957ac8928f/89d29688-da71-49bb-a25b-d6f160f4d0d4"
-					(reference "#PWR029")
+					(reference "#PWR?")
 					(unit 1)
 				)
 				(path "/8e19332e-3534-4a04-99a8-04957ac8928f/a4009674-06bb-4fe0-bcda-ed9945d86716"
-					(reference "#PWR029")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
